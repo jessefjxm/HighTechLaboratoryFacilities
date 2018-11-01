@@ -14,9 +14,10 @@
 			<texPath>Things/Apparel/LabCoat</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<costList>
-			<Cloth>60</Cloth>
-		</costList>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+		  <li>Fabric</li>
+		</stuffCategories>
 		<thingCategories>
 			<li>Apparel</li>
 		</thingCategories>
