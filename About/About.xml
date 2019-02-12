@@ -2,7 +2,10 @@
 <ModMetaData>
 	<name>High Tech Laboratory Facilities (Continued)</name>
 	<author>Mlie</author>
-    <targetVersion>1.0.0</targetVersion>
+	<supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
+	<url>https://github.com/emipa606/HighTechLaboratoryFacilities</url>
 	<description>
 New and redesigned laboratory facilities for a more high tech look.
 Also an upgraded power armor with helmet to construct and a lab coat to research faster.
