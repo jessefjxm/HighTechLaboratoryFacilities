@@ -110,7 +110,6 @@
       </li>
 	  <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
-		  <li>HiTechResearchBench</li>
           <li>MultiAnalyzer</li>
         </linkableFacilities>
       </li>
@@ -177,7 +176,6 @@
       </li>
 	  <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
-		  <li>HiTechResearchBench</li>
           <li>MultiAnalyzer</li>
         </linkableFacilities>
       </li>
