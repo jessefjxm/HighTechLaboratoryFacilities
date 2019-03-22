@@ -1,11 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
   <identifier>HighTechLaboratoryFacilities</identifier>
-  <version>1.0.3.0</version>
+  <version>1.0.4.0</version>
   <dependencies />
-  <incompatibleWith>
-	<li>TechRaiding[1.0]</li>
-  </incompatibleWith>
+  <incompatibleWith />
   <loadBefore />
   <loadAfter />
   <manifestUri>https://raw.githubusercontent.com/emipa606/HighTechLaboratoryFacilities/master/About/Manifest.xml</manifestUri>
