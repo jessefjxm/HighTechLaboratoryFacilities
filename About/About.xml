@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>High Tech Laboratory Facilities (Continued)</name>
+	<packageId>Mlie.HighTechLaboratoryFacilities</packageId>
 	<author>Mlie</author>
 	<supportedVersions>
 		<li>1.0</li>
