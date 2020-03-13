@@ -30,8 +30,4 @@
 		</value>
 	</Operation>
 	
-	<Operation Class="PatchOperationRemove">
-		<xpath>*/ThingDef[defName = "HiTechResearchBench"]/graphicData/shaderType</xpath>
-	</Operation>
-	
 </Patch>

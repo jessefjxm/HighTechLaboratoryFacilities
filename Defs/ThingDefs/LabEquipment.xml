@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
-  <ThingDef ParentName="BuildingBase">
+
+  <ThingDef Abstract="True" ParentName="BuildingBase" Name="CounterBase">
     <thingClass>Building</thingClass>
     <altitudeLayer>Building</altitudeLayer>
     <description>A convenient countertop surface.</description>
@@ -11,6 +11,26 @@
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
     <designationCategory>Furniture</designationCategory>
     <staticSunShadowHeight>0.20</staticSunShadowHeight>
+  </ThingDef>
+
+  <ThingDef Name="LabStationBase" ParentName="BuildingBase" Abstract="True">
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+		<building>
+			<workSpeedPenaltyOutdoors>true</workSpeedPenaltyOutdoors>
+			<workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
+		</building>
+		<comps>
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+		</placeWorkers>
+  </ThingDef>
+  
+  <ThingDef ParentName="CounterBase">
     <defName>CounterTopModular</defName>
     <label>laboratory counter</label>
     <uiIconPath>Things/Building/Research/CounterIco</uiIconPath>	
@@ -29,18 +49,12 @@
       <Beauty>2</Beauty>
     </statBases>
     <size>(1,1)</size>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-    <costStuffCount>2</costStuffCount>
-    <costList>
-		<Steel>1</Steel>
-	</costList>
+    <costList><Steel>3</Steel></costList>
     <rotatable>false</rotatable>
     <placingDraggableDimensions>2</placingDraggableDimensions>
   </ThingDef>
   
-  <ThingDef ParentName="BenchBase">
+  <ThingDef ParentName="LabStationBase">
     <defName>LabStation</defName>
     <label>laboratory station</label>
     <thingClass>Building_ResearchBench</thingClass>
@@ -57,12 +71,8 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-    <costStuffCount>100</costStuffCount>
     <costList>
-      <Steel>150</Steel>
+      <Steel>250</Steel>
       <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
     <altitudeLayer>Building</altitudeLayer>
@@ -110,7 +120,7 @@
     </researchPrerequisites>
   </ThingDef>
   
-  <ThingDef ParentName="BenchBase">
+  <ThingDef ParentName="LabStationBase">
     <defName>LabTerminal</defName>
     <label>research terminal</label>
     <thingClass>Building_ResearchBench</thingClass>
@@ -127,12 +137,8 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
-    <costStuffCount>50</costStuffCount>
     <costList>
-      <Steel>50</Steel>
+      <Steel>100</Steel>
       <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <altitudeLayer>Building</altitudeLayer>
