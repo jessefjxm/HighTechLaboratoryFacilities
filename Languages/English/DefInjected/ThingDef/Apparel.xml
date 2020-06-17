@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Lab Coat -->
+
+  <LabCoat.label>lab coat</LabCoat.label>
+  <LabCoat.description>A plain white overgarment traditionally worn by the scientifically adept.</LabCoat.description>
+
+
+  <!-- Cyber Suit -->
+
+  <Apparel_CyberSuit.label>X-1 Cybernetic Body Defense Suit</Apparel_CyberSuit.label>
+  <Apparel_CyberSuit.description>The X-1 Cybernetic Body Defense Suit is a one piece experimental apparel system. Developed to smoothly interface biological and electronic technologies, the X-1 also provides a high degree of protection from environmental hazards.</Apparel_CyberSuit.description>
+
+  <Apparel_Leviathan.label>XMA-1 "Leviathan" Mechanized Combat Armature</Apparel_Leviathan.label>
+  <Apparel_Leviathan.description>The XMA-1 "Leviathan" is the product of immense invested time and labor by colonial researchers. When equipped with appropriate heavy ordinance pilots of this exotic exoskeletal system effectively become walking battle tanks.</Apparel_Leviathan.description>
+
+  <Apparel_LeviathanH.label>XMA-1 "Leviathan" MCA Helmet</Apparel_LeviathanH.label>
+  <Apparel_LeviathanH.description>The armored helmet and primary control center of an XMA-1 "Leviathan" Mechanized Combat Armature (MCA) is equipped with algorhythms designed to increase individual reflex reaction, firearm accuracy, and mental acuity.</Apparel_LeviathanH.description>
+
+
+</LanguageData>
