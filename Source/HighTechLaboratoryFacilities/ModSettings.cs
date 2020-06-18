@@ -11,7 +11,5 @@ namespace HighTechLaboratoryFacilities
             base.ExposeData();
             Scribe_Values.Look<bool>(ref HideApparel, "HideApparel", false, false);
         }
-
-
     }
 }

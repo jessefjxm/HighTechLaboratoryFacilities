@@ -8,23 +8,22 @@ namespace HighTechLaboratoryFacilities
     {
         public HighTechLaboratoryFacilitiesMod(ModContentPack content) : base(content)
         {
-            HighTechLaboratoryFacilitiesMod.instance = this;
+            instance = this;
         }
 
         internal HighTechLaboratoryFacilitiesModSettings Settings
         {
             get
             {
-                HighTechLaboratoryFacilitiesModSettings result;
-                if ((result = this.settings) == null)
+                if (settings == null)
                 {
-                    result = (this.settings = base.GetSettings<HighTechLaboratoryFacilitiesModSettings>());
+                    settings = GetSettings<HighTechLaboratoryFacilitiesModSettings>();
                 }
-                return result;
+                return settings;
             }
             set
             {
-                this.settings = value;
+                settings = value;
             }
         }
 
@@ -32,20 +31,20 @@ namespace HighTechLaboratoryFacilities
         {
             return "High Tech Laboratory Facilities";
         }
-        
+
         public override void DoSettingsWindowContents(Rect rect)
         {
             Listing_Standard listing_Standard = new Listing_Standard();
             listing_Standard.Begin(rect);
-            listing_Standard.CheckboxLabeled("Hide apparel", ref settings.HideApparel, "Hide the Labcoat, cybersuit and Leviathan Powerarmor");
+            listing_Standard.CheckboxLabeled("Hide apparel", ref Settings.HideApparel, "Hide the Labcoat, cybersuit and Leviathan Powerarmor");
             listing_Standard.End();
-            settings.Write();
+            Settings.Write();
             HighTechLaboratoryFacilities.SetApparelVisibility();
         }
 
-        private HighTechLaboratoryFacilitiesModSettings settings;
-
         public static HighTechLaboratoryFacilitiesMod instance;
+
+        private HighTechLaboratoryFacilitiesModSettings settings;
 
     }
 }

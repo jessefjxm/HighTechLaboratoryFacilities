@@ -14,6 +14,14 @@ namespace HighTechLaboratoryFacilities
 
         internal static void SetApparelVisibility()
         {
+            //Log.Message("HighTechLaboratoryFacilities: SetApparelVisibility" );
+            if (HighTechLaboratoryFacilitiesMod.instance.Settings == null)
+            {
+                //Log.Message("HighTechLaboratoryFacilities: settings null");
+                HighTechLaboratoryFacilitiesMod.instance.Settings.HideApparel = false;
+            }
+
+            //Log.Message("HighTechLaboratoryFacilities: var hidden");
             var hidden = HighTechLaboratoryFacilitiesMod.instance.Settings.HideApparel;
 
             var recipeList = DefDatabase<RecipeDef>.AllDefs.ToList();
@@ -24,7 +32,10 @@ namespace HighTechLaboratoryFacilities
                     if (hidden)
                         recipe.factionPrerequisiteTags = new List<string> { "Not_available_for_you" };
                     else
-                        recipe.factionPrerequisiteTags.Clear();
+                    {
+                        if (recipe.factionPrerequisiteTags != null)
+                            recipe.factionPrerequisiteTags.Clear();
+                    }
                     //Log.Message("HighTechLaboratoryFacilities: " + recipe.defName + " hidden set to " + hidden);
                 }
             }
@@ -36,7 +47,10 @@ namespace HighTechLaboratoryFacilities
                     if (hidden)
                         research.hiddenPrerequisites = new List<ResearchProjectDef> { research };
                     else
-                        research.hiddenPrerequisites.Clear();
+                    {
+                        if (research.hiddenPrerequisites != null)
+                            research.hiddenPrerequisites.Clear();
+                    }
                     //Log.Message("HighTechLaboratoryFacilities: " + research.defName + " hidden set to " + hidden);
                 }
             }
