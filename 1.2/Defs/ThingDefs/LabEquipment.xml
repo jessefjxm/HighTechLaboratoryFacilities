@@ -1,5 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+  <ThingDef ParentName="BenchBase">
+    <defName>UnobtainableResearchBench</defName>
+    <label>Unobtainable research bench</label>
+    <description>Not possible to build</description>
+    <thingClass>Building_ResearchBench</thingClass>
+    <size>(1,1)</size>
+    <thingCategories Inherit="false" />
+    <minifiedDef />
+    <costList>
+      <Steel>1</Steel>
+    </costList>
+    <generateCommonality>0</generateCommonality>
+    <tradeability>None</tradeability>
+    <destroyOnDrop>True</destroyOnDrop>
+    <menuHidden>True</menuHidden>
+    <graphicData>
+      <texPath>Things/Building/Empty</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <designationCategory>Production</designationCategory>
+    <surfaceType>Item</surfaceType>
+  </ThingDef>
   <ThingDef ParentName="BuildingBase">
     <thingClass>Building</thingClass>
     <altitudeLayer>Building</altitudeLayer>

@@ -1,14 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-  <CounterTopModular.label>laboratory counter</CounterTopModular.label>
-  <CounterTopModular.description>A convenient countertop surface.</CounterTopModular.description>
-
-  <LabStation.label>laboratory station</LabStation.label>
-  <LabStation.description>An auxillary research station for expanding laboratory operations. Requires power.</LabStation.description>
-
-  <LabTerminal.label>research terminal</LabTerminal.label>
-  <LabTerminal.description>A compact research terminal for expanding laboratory operations. Requires power.</LabTerminal.description>
-
+  <!--<CounterTopModular.label>laboratory counter</CounterTopModular.label>-->
+  <!--<CounterTopModular.description>A convenient countertop surface.</CounterTopModular.description>-->
+  <!--<LabStation.label>laboratory station</LabStation.label>-->
+  <!--<LabStation.description>An auxillary research station for expanding laboratory operations. Requires power.</LabStation.description>-->
+  <!--<LabTerminal.label>research terminal</LabTerminal.label>-->
+  <!--<LabTerminal.description>A compact research terminal for expanding laboratory operations. Requires power.</LabTerminal.description>-->
 
 </LanguageData>

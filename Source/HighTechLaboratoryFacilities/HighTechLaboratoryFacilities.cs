@@ -45,11 +45,10 @@ namespace HighTechLaboratoryFacilities
                 if (research.defName == "TranscendentTech")
                 {
                     if (hidden)
-                        research.hiddenPrerequisites = new List<ResearchProjectDef> { research };
+                        research.requiredResearchBuilding = DefDatabase<ThingDef>.GetNamedSilentFail("UnobtainableResearchBench");
                     else
                     {
-                        if (research.hiddenPrerequisites != null)
-                            research.hiddenPrerequisites.Clear();
+                        research.requiredResearchBuilding = null;
                     }
                     //Log.Message("HighTechLaboratoryFacilities: " + research.defName + " hidden set to " + hidden);
                 }
