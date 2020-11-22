@@ -21,7 +21,7 @@
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
-    <designationCategory>Production</designationCategory>
+    <designationCategory Inherit="false" />
     <surfaceType>Item</surfaceType>
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
