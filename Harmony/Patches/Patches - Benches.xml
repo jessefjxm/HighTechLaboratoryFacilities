@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAddModExtension">
+    <xpath>Defs/ThingDef[defName = "LabStation" or defName = "LabTerminal"]</xpath>
+    <value>
+      <li Class="HighTechPatch.DefModExt_HighTechResearchBench">
+        <IsHighTechResearchBench>True</IsHighTechResearchBench>
+      </li>
+    </value>
+  </Operation>
+</Patch>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>High Tech Laboratory Facilities (Continued)</name>
   <packageId>Mlie.HighTechLaboratoryFacilities</packageId>
@@ -38,5 +38,16 @@ This mod started out as a personal project for myself to use in my own game but 
 - custom graphics for both (exoskeleton artwork based upon the incomparable rooki1's work!)
 
 Quick and dirty update! Added native minification def to all items due to popular request. All usable research items (Hi-Tech Research Bench, Laboratory Station, and Research Terminal) now link with the MultiAnalyzer and each other for a benefit of +10% research speed per link. This hopefully makes up for the Laboratory Station and Research Terminal not counting as Hi-Tech Research Benches for the purpose of actively researching technologies with the bench specifically noted as a prerequisite. Enjoy!
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
 </description>
 </ModMetaData>
+
