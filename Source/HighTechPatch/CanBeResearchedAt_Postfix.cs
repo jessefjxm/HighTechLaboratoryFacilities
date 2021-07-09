@@ -8,7 +8,8 @@ namespace HighTechPatch
     public static class CanBeResearchedAt_Postfix
     {
         // Token: 0x06000411 RID: 1041 RVA: 0x00018CDC File Offset: 0x00016EDC
-        public static void Postfix(Building_ResearchBench bench, bool ignoreResearchBenchPowerStatus, ResearchProjectDef __instance, ref bool __result)
+        public static void Postfix(Building_ResearchBench bench, bool ignoreResearchBenchPowerStatus,
+            ResearchProjectDef __instance, ref bool __result)
         {
             if (__result)
             {
@@ -53,7 +54,9 @@ namespace HighTechPatch
                 int i;
                 for (i = 0; i < __instance.requiredResearchFacilities.Count; i = j + 1)
                 {
-                    if (linkedFacilitiesListForReading.Find(x => x.def == __instance.requiredResearchFacilities[i] && affectedByFacilities.IsFacilityActive(x)) == null)
+                    if (linkedFacilitiesListForReading.Find(x =>
+                        x.def == __instance.requiredResearchFacilities[i] &&
+                        affectedByFacilities.IsFacilityActive(x)) == null)
                     {
                         return;
                     }

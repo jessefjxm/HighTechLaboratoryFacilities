@@ -1,5 +1,8 @@
 # Changelog for HighTechLaboratoryFacilities
 
+1.0.16.0 - Mod updated for 1.3 and passed autotests
+
+
 1.0.15.0 - Added benches should now count as HighTech research benches
 
 

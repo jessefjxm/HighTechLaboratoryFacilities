@@ -7,6 +7,7 @@
     <li>1.0</li>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <url>https://github.com/emipa606/HighTechLaboratoryFacilities</url>
   <description>[img]https://i.imgur.com/WAEzk68.png[/img]
@@ -31,11 +32,11 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=841760538
 New and redesigned laboratory facilities for a more high tech look!
 
 
-This mod started out as a personal project for myself to use in my own game but due to requests I decided to release it publicly. I made this mod due to feeling that the graphics for the "hi-tech research bench" and "comms console" were a bit too boring and plain for my liking so I decided to make my own graphics for them. Following that I decided to continue modifying and adding research assets to fit the theme I was working toward. Full disclosure, I didn't work on this mod to the point that I would normally consider fully finished and there are a few parts I never felt fully satisfied with (the ground-penetrating scanner graphic being one example as I never could come up with a fully realized design that I liked). I am also currently playing other games and focusing on other matters in my life so I doubt I'll undertake any further updates anytime soon. To make up for that however I included a little bonus:
+This mod started out as a personal project for myself to use in my own game but due to requests I decided to release it publicly. I made this mod due to feeling that the graphics for the &quot;hi-tech research bench&quot; and &quot;comms console&quot; were a bit too boring and plain for my liking so I decided to make my own graphics for them. Following that I decided to continue modifying and adding research assets to fit the theme I was working toward. Full disclosure, I didn&apos;t work on this mod to the point that I would normally consider fully finished and there are a few parts I never felt fully satisfied with (the ground-penetrating scanner graphic being one example as I never could come up with a fully realized design that I liked). I am also currently playing other games and focusing on other matters in my life so I doubt I&apos;ll undertake any further updates anytime soon. To make up for that however I included a little bonus:
 
 - tailor-made lab coats that slightly enhance research skills
 - a late game research project that unlocks plans for an advanced powered combat exoskeleton
-- custom graphics for both (exoskeleton artwork based upon the incomparable rooki1's work!)
+- custom graphics for both (exoskeleton artwork based upon the incomparable rooki1&apos;s work!)
 
 Quick and dirty update! Added native minification def to all items due to popular request. All usable research items (Hi-Tech Research Bench, Laboratory Station, and Research Terminal) now link with the MultiAnalyzer and each other for a benefit of +10% research speed per link. This hopefully makes up for the Laboratory Station and Research Terminal not counting as Hi-Tech Research Benches for the purpose of actively researching technologies with the bench specifically noted as a prerequisite. Enjoy!
 
@@ -48,6 +49,6 @@ Quick and dirty update! Added native minification def to all items due to popula
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
+
 </description>
 </ModMetaData>
-

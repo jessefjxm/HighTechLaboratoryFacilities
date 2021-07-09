@@ -38,7 +38,8 @@ namespace HighTechLaboratoryFacilities
         {
             var listing_Standard = new Listing_Standard();
             listing_Standard.Begin(rect);
-            listing_Standard.CheckboxLabeled("Hide apparel", ref Settings.HideApparel, "Hide the Labcoat, cybersuit and Leviathan Powerarmor");
+            listing_Standard.CheckboxLabeled("Hide apparel", ref Settings.HideApparel,
+                "Hide the Labcoat, cybersuit and Leviathan Powerarmor");
             listing_Standard.End();
             Settings.Write();
             HighTechLaboratoryFacilities.SetApparelVisibility();

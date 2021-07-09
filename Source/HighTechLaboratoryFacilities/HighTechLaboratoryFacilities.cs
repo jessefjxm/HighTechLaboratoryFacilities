@@ -30,7 +30,8 @@ namespace HighTechLaboratoryFacilities
             var recipeList = DefDatabase<RecipeDef>.AllDefs.ToList();
             foreach (var recipe in recipeList)
             {
-                if (recipe.defName != "Make_LabCoat" && recipe.defName != "Make_Apparel_CyberSuit" && recipe.defName != "Make_Apparel_Leviathan" && recipe.defName != "Make_Apparel_LeviathanH")
+                if (recipe.defName != "Make_LabCoat" && recipe.defName != "Make_Apparel_CyberSuit" &&
+                    recipe.defName != "Make_Apparel_Leviathan" && recipe.defName != "Make_Apparel_LeviathanH")
                 {
                     continue;
                 }
@@ -55,7 +56,8 @@ namespace HighTechLaboratoryFacilities
                     continue;
                 }
 
-                research.requiredResearchBuilding = hidden ? DefDatabase<ThingDef>.GetNamedSilentFail("UnobtainableResearchBench") : null;
+                research.requiredResearchBuilding =
+                    hidden ? DefDatabase<ThingDef>.GetNamedSilentFail("UnobtainableResearchBench") : null;
 
                 //Log.Message("HighTechLaboratoryFacilities: " + research.defName + " hidden set to " + hidden);
             }

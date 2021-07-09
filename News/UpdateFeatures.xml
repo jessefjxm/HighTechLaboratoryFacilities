@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase">
     <modNameReadable>HighTechLaboratoryFacilities</modNameReadable>
@@ -13,11 +13,11 @@ Also, for those who want the old color of the benches they should now show the o
 There is also an added option to hide the apparel added by this mod. This will remove the recipes and prevent new apparel from spawning. It will not remove existing apparel.
 </content>
   </HugsLib.UpdateFeatureDef>
-	<HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
-		<defName>HighTechLaboratoryFacilities_1_0_15_0</defName>
-		<assemblyVersion>1.0.15.0</assemblyVersion>
-		<content>Found a way to make the research terminal and the laboratory station count as high tech research-benches. So now they should also be usable for projects that demands the high-tech research-bench.
+  <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+    <defName>HighTechLaboratoryFacilities_1_0_15_0</defName>
+    <assemblyVersion>1.0.15.0</assemblyVersion>
+    <content>Found a way to make the research terminal and the laboratory station count as high tech research-benches. So now they should also be usable for projects that demands the high-tech research-bench.
 Hope this helps in some way!
 </content>
-	</HugsLib.UpdateFeatureDef>
+  </HugsLib.UpdateFeatureDef>
 </Defs>
