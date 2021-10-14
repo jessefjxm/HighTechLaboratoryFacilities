@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <!-- HiTech Research Bench -->
-  <Operation Class="PatchOperationReplace">
+  <!-- <Operation Class="PatchOperationReplace">
     <xpath>*/ThingDef[defName = "HiTechResearchBench"]/size</xpath>
     <value>
       <size>(3,1)</size>
@@ -18,7 +18,7 @@
     <value>
       <texPath>Things/Building/Research/ResearchBenchHiTech</texPath>
     </value>
-  </Operation>
+  </Operation> -->
   <Operation Class="PatchOperationAdd">
     <xpath>*/ThingDef[defName = "HiTechResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
     <value>

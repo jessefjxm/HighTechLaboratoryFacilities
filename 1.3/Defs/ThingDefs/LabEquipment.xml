@@ -23,6 +23,7 @@
     <designationCategory Inherit="false" />
     <surfaceType>Item</surfaceType>
   </ThingDef>
+
   <ThingDef ParentName="BuildingBase">
     <thingClass>Building</thingClass>
     <altitudeLayer>Building</altitudeLayer>
@@ -61,6 +62,7 @@
     <rotatable>false</rotatable>
     <placingDraggableDimensions>2</placingDraggableDimensions>
   </ThingDef>
+
   <ThingDef ParentName="BenchBase">
     <defName>LabStation</defName>
     <label>laboratory station</label>
@@ -131,6 +133,7 @@
       <li>MicroelectronicsBasics</li>
     </researchPrerequisites>
   </ThingDef>
+
   <ThingDef ParentName="BenchBase">
     <defName>LabTerminal</defName>
     <label>research terminal</label>
@@ -196,6 +199,77 @@
     <designationHotKey>Misc4</designationHotKey>
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>MicroelectronicsBasics</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BenchBase">
+    <defName>UltraTechResearchBench</defName>
+    <label>Ultra-tech research bench</label>
+    <description>A ultra-tech bench with computers and electronic measurement equipment. Allows more rapid research, and unlocks advanced research projects.</description>
+    <thingClass>Building_ResearchBench</thingClass>
+    <size>(3,1)</size>
+    <minifiedDef />
+    <thingCategories Inherit="false" />
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costStuffCount>150</costStuffCount>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+    <graphicData>
+      <texPath>Things/Building/Research/ResearchBenchHiTech</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3.0,1.25)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>5000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <ResearchSpeedFactor>1.0</ResearchSpeedFactor>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>250</basePowerConsumption>
+        <shortCircuitInRain>true</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>MultiAnalyzer</li>
+          <li>LabTerminal</li>
+          <li>LabStation</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <fillPercent>0.5</fillPercent>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Production</designationCategory>
+    <surfaceType>Item</surfaceType>
+    <designationHotKey>Misc4</designationHotKey>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
     <researchPrerequisites>
       <li>MicroelectronicsBasics</li>

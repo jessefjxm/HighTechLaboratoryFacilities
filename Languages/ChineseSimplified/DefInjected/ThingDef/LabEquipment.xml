@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <UnobtainableResearchBench.label>无法获得的研究台</UnobtainableResearchBench.label>
+  <UnobtainableResearchBench.description>不能建造</UnobtainableResearchBench.description>
+
+  <CounterTopModular.label>实验室柜</CounterTopModular.label>
+  <CounterTopModular.description>实用的工作台</CounterTopModular.description>
+
+  <LabStation.label>研究站</LabStation.label>
+  <LabStation.description>辅助实验室的研究站。需要电力。</LabStation.description>
+
+  <LabTerminal.label>科研终端</LabTerminal.label>
+  <LabTerminal.description>紧凑的研究终端。需要电力。</LabTerminal.description>
+
+  <UltraCommsConsole.label>极致科技通讯台</UltraCommsConsole.label>
+  <UltraCommsConsole.description>可以通过无线电和遥远的轨道贸易商进行交易。以及和联系其他派系进行外交（发送礼物或呼叫援军）或请求商队交易。</UltraCommsConsole.description>
+
+  <UltraMultiAnalyzer.label>极致科技多元分析仪</UltraMultiAnalyzer.label>
+  <UltraMultiAnalyzer.description>提高研究速度，一些高级研究项目所必需的设备。需要放置在高级研究台附近。一个研究台只能连接一个多元分析仪。</UltraMultiAnalyzer.description>
+
+  <UltraGroundPenetratingScanner.label>极致科技地质扫描仪</UltraGroundPenetratingScanner.label>
+  <UltraGroundPenetratingScanner.description>研究人员用来寻找埋藏资源的传感器。找到资源的可能性取决于操作者的研究能力。它相当耗电。如果你发现了一个埋藏的资源，你需要使用深钻井来提取它。这个装置只能在户外使用。</UltraGroundPenetratingScanner.description>
+
+  <UltraTechResearchBench.label>极致科技研究台</UltraTechResearchBench.label>
+  <UltraTechResearchBench.description>一种配有电脑和电子测量设备的高科技工作台。高科技工具加快了研究速度。并且能够研究更先进的科技。</UltraTechResearchBench.description>
+
+</LanguageData>

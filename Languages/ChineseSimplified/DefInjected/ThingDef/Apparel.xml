@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Lab Coat -->
+
+  <LabCoat.label>实验室工作服</LabCoat.label>
+  <LabCoat.description>科学家经常穿的白大褂。</LabCoat.description>
+
+
+  <!-- Cyber Suit -->
+
+  <Apparel_CyberSuit.label>X-1防弹衣</Apparel_CyberSuit.label>
+  <Apparel_CyberSuit.description>X-1防弹衣是一套实验性的服装。应用了成熟的“湿件”技术，具有高度的防护性能，使人免受环境危害。</Apparel_CyberSuit.description>
+
+  <Apparel_Leviathan.label>XMA-1“利维坦”战甲</Apparel_Leviathan.label>
+  <Apparel_Leviathan.description>XMA-1是殖民地研究员投入大量时间和劳动的产物。当配备了合适的重型武器后，穿上这套战甲的人将成为“坦克”。</Apparel_Leviathan.description>
+
+  <Apparel_LeviathanH.label>XMA-1“利维坦”战甲头盔</Apparel_LeviathanH.label>
+  <Apparel_LeviathanH.description>配备了用于提高反应速度、射击精度和（心灵敏感度，疑似有误）的装置。</Apparel_LeviathanH.description>
+
+
+</LanguageData>

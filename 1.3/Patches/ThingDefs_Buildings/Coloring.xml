@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <Operation Class="PatchOperationAdd">
-    <xpath>*/ThingDef[defName = "HiTechResearchBench" or defName = "CounterTopModular" or defName = "LabStation" or defName = "LabTerminal"]</xpath>
+  <!-- <Operation Class="PatchOperationAdd">
+    <xpath>*/ThingDef[defName = "UltraTechResearchBench" or defName = "CounterTopModular" or defName = "LabStation" or defName = "LabTerminal"]</xpath>
     <value>
       <colorPerStuff>
         <li>
@@ -10,5 +10,5 @@
         </li>
       </colorPerStuff>
     </value>
-  </Operation>
+  </Operation> -->
 </Patch>

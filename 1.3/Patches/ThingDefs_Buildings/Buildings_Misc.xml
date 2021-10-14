@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <!-- Comms console -->
-  <Operation Class="PatchOperationReplace">
+  <!-- <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName = "CommsConsole"]/size</xpath>
     <value>
       <size>(3,1)</size>
@@ -36,9 +36,9 @@
     <value>
       <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     </value>
-  </Operation>
+  </Operation> -->
   <!-- MultiAnalyzer -->
-  <Operation Class="PatchOperationReplace">
+  <!-- <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName = "MultiAnalyzer"]/graphicData/drawSize</xpath>
     <value>
       <drawSize>(2,2)</drawSize>
@@ -49,9 +49,9 @@
     <value>
       <texPath>Things/Building/Research/MultiAnalyzer</texPath>
     </value>
-  </Operation>
+  </Operation> -->
   <!-- Ground Penetrating Scanner -->
-  <Operation Class="PatchOperationReplace">
+  <!-- <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName = "GroundPenetratingScanner"]/graphicData/shadowData/volume</xpath>
     <value>
       <volume>(1.4, 0.5, 1.4)</volume>
@@ -62,5 +62,5 @@
     <value>
       <texPath>Things/Building/Research/GroundPenetratingScanner</texPath>
     </value>
-  </Operation>
+  </Operation> -->
 </Patch>
